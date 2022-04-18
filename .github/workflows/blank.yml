@@ -15,11 +15,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Setup java
-      - name: Setup JDK 17
+      - name: Setup JDK 11
         uses: actions/checkout-java@V2
         with:
-          java-version '17'
-          distribution:'adopt'
+          java-version '11'
+          distribution: 'adopt'
       - name: Checkout our code
         uses: actions/checkout-java@V2
       
